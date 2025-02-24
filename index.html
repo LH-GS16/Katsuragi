@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/638e3998ed.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  <title>Katsuragi.com</title>
+<body>
+  <nav>
+    <h2 style="color: white; position: relative; right: 25%;">Olá, eu sou Luís Henrique</h2>
+    <div class="navbar">
+      <button class="nav-button" data-target="home">Home</button>
+      <button class="nav-button" data-target="about">About</button>
+      <button class="nav-button" data-target="projects">Projects</button>
+      <button class="nav-button" data-target="about-me">Contact</button>
+    </div>
+  </nav>
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="imgModal">
+    <div id="caption"></div>
+  </div>
+  <div id="home" class="section">
+    <div id="bay">
+      <div id="skills" class="section">
+        <h2 style="text-align: center;">Skills</h2>
+        <div class="skills-container">
+          <div class="skill"><i class="fa-brands fa-js"></i> JavaScript</div>
+          <div class="skill"><i class="fa-brands fa-html5"></i> HTML</div>
+          <div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+          <div class="skill"><i class="fa-solid fa-database"></i> SQL Server</div>
+          <div class="skill"><i class="fa-brands fa-php"></i> PHP</div>
+          <div class="skill"><i class="fa-solid fa-code"></i> C#</div>
+        </div>
+      </div>
+      <div id="about" class="hero-text">
+        <div class="row" style="display: flex;top: 40%;position: relative;">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="Downloads/fotoPrincipal.jpg" class="img-fluid" style="height: 65vh;" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" style="padding-left: 5%;font-size: 25px;" data-aos="fade-left">
+            <h3>Web Developer</h3>
+            <p class="font-italic" style="padding-bottom: 10%;">
+              Desenvolvedor front e back-end a 4 anos.
+            </p>
+            <span style="font-size: 16px;">Meu nome é Luís Henrique, sou um profissional exercendo a minha paixão a
+              quatro anos, ingressei
+              jovem, já aos 16 anos eu estava em uma empresa exercendo a minha profissão, iniciei na parte de
+              front-end com HTML, CSS, JavaScript com a adição do jQuery como biblioteca principal e na parte de
+              back-end C# e PHP, sempre utilizando do SQL Server desde o início para monitorar consultas a fim de
+              sempre manter uma experiência leve e moderna aos nossos clientes, alguns exemplos seriam: Seara,
+              Friboi, Pamplona, Sadia, Vigor e muitos outros no ramo alimentício dentro e fora do Brasil</span>
+          </div>
+        </div>
+      </div>
+      <div class="projects section" id="projects">
+        <div class="projects-text">
+          <h2 style="text-align: center;" class="word visible">Projetos</h2>
+          <span class="word visible"></span>Apenas alguns dos projetos nos quais participei e desempenhei fortes
+          papéis.</span>
+        </div>
+        <div class="project-grid">
+          <div class="project">
+            <div class="project-wrap">
+              <div class="project-img" style="background-image: url('Downloads/Projeto.jpeg');"></div>
+              <div class="project-text">
+                <h3>Template de integração</h3>
+                <p class="project-paragraph">Essa integração é um projeto que fiz em uma antiga empresa, fundamentado
+                  inteiramente em C#, o intuito dessa integração era ter um código de fácil entendimento para os
+                  clientes usarem e integrarem seus produtos, veículos, etc, em nosso banco de dados.</p>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-wrap">
+              <div class="project-img" style="background-image: url('Downloads/Projeto2.jpeg');"></div>
+              <div class="project-text">
+                <h3>Glok sistemas</h3>
+                <p class="project-paragraph">Esse é o site no qual desempenhei grandes papéis como: correção de bugs,
+                  criação de telas, melhorias no código, etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="about-me" class="section"
+          style="margin-top: 30px; text-align: center; font-size: 20px; max-width: 800px; margin-left: auto; margin-right: auto;">
+          <ul style="list-style: none; padding: 0;">
+            <li>
+              <a href="https://wa.me/47996957396" target="_blank"><i style="color: purple;"
+                  class="fa-brands fa-whatsapp"></i></a> (47) 996957396
+            </li>
+            <li>
+              <a href="https://www.instagram.com/kkkatsuragi.__/" target="_blank"><i style="color: purple;"
+                  class="fa-brands fa-instagram"></i></a> kkkatsuragi.__
+            </li>
+            <li>
+              <a href="mailto:katsuragi.burity@outlook.com" target="_blank"><i style="color: purple;"
+                  class="fa-solid fa-envelope"></i></a> katsuragi.burity@outlook.com
+            </li>
+            <li><strong>Cidade:</strong> Tijucas, SC, BR</li>
+            <li><strong>Idade:</strong> 20</li>
+          </ul>
+        </div>
+        <span>© 2025 Katsuragi.com</span>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+  </head>
+</body>
+
+</html>
